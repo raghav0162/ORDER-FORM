@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background: var(--color-darkblue);
+  background-image: 
+    
+    url('https://vjloopsfarm.com/wp-content/uploads/2019/03/Red-Strobing-Abstract-multicolored-ethnic-motion-graphics-background.-VJ-Loop-LIMEART_003.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.container {
+  border-radius: 28px;
+  background-color: GRAY;
+  padding: 35px;
+}
+</style>
+</head>
+<body>
+
+<h3  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;"> At Your Doorstep</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    
+     <label for="lname">EMAIL-ID</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your EMAIL">
+    <label for="lname">CONTACT NUMBER</label>
+    <input type="text" id="MOBILENUMBER" name="MONU" placeholder="Your MOBILE NUMBER">
+
+
+ 
+    <label for="AREA">AREA</label>
+    <select id="country" name="country">
+      <option value="VDN">VDN</option>
+      <option value="VAISHALI">VAISHALI</option>
+      <option value="JHOTWARA">JHOTWARA</option>
+      <option value="SHASTRI NAGAR">SHASTRI NAGAR</option>
+      <option value="BANIPARK">BANIPARK</option>
+      <option value="14 NO">14 NO</option>
+      <option value="GT">GT</option>
+    </select>
+
+    <label for="subject"  style="text-shadow: 0.5px, 0.4px; text-align:center; color: #99B898;">WHAT KINDA ZONE YOU WANNA BE IN TELL ME BIT ABOUT IT </label>
+    <textarea id="subject" name="subject" placeholder="Write something..QUANTITY QUALITY" style="height:100px"></textarea>
+
+    <input type="submit" value="ORDER">
+  </form>
+</div>
+
+</body>
+</html>
